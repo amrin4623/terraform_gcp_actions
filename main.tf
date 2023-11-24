@@ -9,7 +9,7 @@ resource "google_storage_bucket" "gcs_bucket" {
 }
 
 resource "google_compute_network" "vpc_network" {
-  name = "terraform-pavithra-network"
+  name = "terraform-amrin-network"
 }
 
 resource "google_compute_instance" "vm_instance" {
